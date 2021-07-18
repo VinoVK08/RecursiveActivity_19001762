@@ -21,7 +21,7 @@ object Q1_findPrime extends App{
 
 
 
-    do{
+
       println( "Enter the number:" )
       var x = scala.io.StdIn.readInt()
       var i = 2
@@ -30,12 +30,5 @@ object Q1_findPrime extends App{
       }else{
         println(x + " is a prime number")
       }
-
-    }while(x>0)
-    //to exit from the program enter -1
-
-
-
-
 
 }
